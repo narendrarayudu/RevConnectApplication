@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 
 public class ConnectionUtil {
-    private static final String URL = "jdbc:mysql://localhost:3306/revconnectdb?useSSL=false&serverTimezone=UTC";
+    private static final String URL = "jdbc:mysql://localhost:3306/revconnectdb?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC";
     private static final String USER = "root";  // CHANGE THIS
     private static final String PASS = "123456789";  // CHANGE THIS
 

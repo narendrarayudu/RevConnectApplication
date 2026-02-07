@@ -1,0 +1,748 @@
+2026-02-07 23:31:28.053 [main] INFO  com.revconnectapp.dao.UserDAO - UserDAO: Retrieving user by ID 123
+2026-02-07 23:31:28.053 [main] INFO  com.revconnectapp.dao.UserDAO - UserDAO: Retrieving user by ID 123
+2026-02-07 23:31:28.054 [main] DEBUG com.revconnectapp.dao.UserDAO - UserDAO: SQL: SELECT * FROM users WHERE id = 123
+2026-02-07 23:31:28.054 [main] DEBUG com.revconnectapp.dao.UserDAO - UserDAO: SQL: SELECT * FROM users WHERE id = 123
+2026-02-07 23:31:28.054 [main] INFO  com.revconnectapp.dao.PostDAO - PostDAO: Creating new post
+2026-02-07 23:31:28.054 [main] INFO  com.revconnectapp.dao.PostDAO - PostDAO: Creating new post
+2026-02-07 23:31:28.055 [main] WARN  com.revconnectapp.dao.PostDAO - PostDAO: Post content is very long
+2026-02-07 23:31:28.055 [main] WARN  com.revconnectapp.dao.PostDAO - PostDAO: Post content is very long
+2026-02-07 23:31:28.055 [main] INFO  com.revconnectapp.service.UserService - UserService: Processing user registration
+2026-02-07 23:31:28.055 [main] INFO  com.revconnectapp.service.UserService - UserService: Processing user registration
+2026-02-07 23:31:28.055 [main] ERROR com.revconnectapp.service.UserService - UserService: Registration failed - email already exists
+2026-02-07 23:31:28.055 [main] ERROR com.revconnectapp.service.UserService - UserService: Registration failed - email already exists
+2026-02-07 23:32:55.384 [main] DEBUG com.revconnectapp.model.User - User object created
+2026-02-07 23:32:55.384 [main] DEBUG com.revconnectapp.model.User - User object created
+2026-02-07 23:32:55.386 [main] INFO  com.revconnectapp.model.Post - Post saved successfully
+2026-02-07 23:32:55.386 [main] INFO  com.revconnectapp.model.Post - Post saved successfully
+2026-02-07 23:32:55.387 [main] WARN  com.revconnectapp.service.UserService - Service method taking longer than expected
+2026-02-07 23:32:55.387 [main] WARN  com.revconnectapp.service.UserService - Service method taking longer than expected
+2026-02-07 23:32:55.404 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #1/100 - Testing log rotation
+2026-02-07 23:32:55.404 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #1/100 - Testing log rotation
+2026-02-07 23:32:55.404 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #2/100 - Testing log rotation
+2026-02-07 23:32:55.404 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #2/100 - Testing log rotation
+2026-02-07 23:32:55.404 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #3/100 - Testing log rotation
+2026-02-07 23:32:55.404 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #3/100 - Testing log rotation
+2026-02-07 23:32:55.404 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #4/100 - Testing log rotation
+2026-02-07 23:32:55.404 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #4/100 - Testing log rotation
+2026-02-07 23:32:55.405 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #5/100 - Testing log rotation
+2026-02-07 23:32:55.405 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #5/100 - Testing log rotation
+2026-02-07 23:32:55.405 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #6/100 - Testing log rotation
+2026-02-07 23:32:55.405 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #6/100 - Testing log rotation
+2026-02-07 23:32:55.405 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #7/100 - Testing log rotation
+2026-02-07 23:32:55.405 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #7/100 - Testing log rotation
+2026-02-07 23:32:55.405 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #8/100 - Testing log rotation
+2026-02-07 23:32:55.405 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #8/100 - Testing log rotation
+2026-02-07 23:32:55.405 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #9/100 - Testing log rotation
+2026-02-07 23:32:55.405 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #9/100 - Testing log rotation
+2026-02-07 23:32:55.405 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #10/100 - Testing log rotation
+2026-02-07 23:32:55.405 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #10/100 - Testing log rotation
+2026-02-07 23:32:55.406 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #11/100 - Testing log rotation
+2026-02-07 23:32:55.406 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #11/100 - Testing log rotation
+2026-02-07 23:32:55.406 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #12/100 - Testing log rotation
+2026-02-07 23:32:55.406 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #12/100 - Testing log rotation
+2026-02-07 23:32:55.406 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #13/100 - Testing log rotation
+2026-02-07 23:32:55.406 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #13/100 - Testing log rotation
+2026-02-07 23:32:55.406 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #14/100 - Testing log rotation
+2026-02-07 23:32:55.406 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #14/100 - Testing log rotation
+2026-02-07 23:32:55.406 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #15/100 - Testing log rotation
+2026-02-07 23:32:55.406 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #15/100 - Testing log rotation
+2026-02-07 23:32:55.406 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #16/100 - Testing log rotation
+2026-02-07 23:32:55.406 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #16/100 - Testing log rotation
+2026-02-07 23:32:55.407 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #17/100 - Testing log rotation
+2026-02-07 23:32:55.407 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #17/100 - Testing log rotation
+2026-02-07 23:32:55.407 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #18/100 - Testing log rotation
+2026-02-07 23:32:55.407 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #18/100 - Testing log rotation
+2026-02-07 23:32:55.407 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #19/100 - Testing log rotation
+2026-02-07 23:32:55.407 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #19/100 - Testing log rotation
+2026-02-07 23:32:55.407 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #20/100 - Testing log rotation
+2026-02-07 23:32:55.407 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #20/100 - Testing log rotation
+2026-02-07 23:32:55.407 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #21/100 - Testing log rotation
+2026-02-07 23:32:55.407 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #21/100 - Testing log rotation
+2026-02-07 23:32:55.408 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #22/100 - Testing log rotation
+2026-02-07 23:32:55.408 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #22/100 - Testing log rotation
+2026-02-07 23:32:55.408 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #23/100 - Testing log rotation
+2026-02-07 23:32:55.408 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #23/100 - Testing log rotation
+2026-02-07 23:32:55.408 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #24/100 - Testing log rotation
+2026-02-07 23:32:55.408 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #24/100 - Testing log rotation
+2026-02-07 23:32:55.408 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #25/100 - Testing log rotation
+2026-02-07 23:32:55.408 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #25/100 - Testing log rotation
+2026-02-07 23:32:55.408 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #26/100 - Testing log rotation
+2026-02-07 23:32:55.408 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #26/100 - Testing log rotation
+2026-02-07 23:32:55.408 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #27/100 - Testing log rotation
+2026-02-07 23:32:55.408 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #27/100 - Testing log rotation
+2026-02-07 23:32:55.409 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #28/100 - Testing log rotation
+2026-02-07 23:32:55.409 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #28/100 - Testing log rotation
+2026-02-07 23:32:55.409 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #29/100 - Testing log rotation
+2026-02-07 23:32:55.409 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #29/100 - Testing log rotation
+2026-02-07 23:32:55.409 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #30/100 - Testing log rotation
+2026-02-07 23:32:55.409 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #30/100 - Testing log rotation
+2026-02-07 23:32:55.409 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #31/100 - Testing log rotation
+2026-02-07 23:32:55.409 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #31/100 - Testing log rotation
+2026-02-07 23:32:55.409 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #32/100 - Testing log rotation
+2026-02-07 23:32:55.409 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #32/100 - Testing log rotation
+2026-02-07 23:32:55.409 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #33/100 - Testing log rotation
+2026-02-07 23:32:55.409 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #33/100 - Testing log rotation
+2026-02-07 23:32:55.410 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #34/100 - Testing log rotation
+2026-02-07 23:32:55.410 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #34/100 - Testing log rotation
+2026-02-07 23:32:55.410 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #35/100 - Testing log rotation
+2026-02-07 23:32:55.410 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #35/100 - Testing log rotation
+2026-02-07 23:32:55.410 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #36/100 - Testing log rotation
+2026-02-07 23:32:55.410 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #36/100 - Testing log rotation
+2026-02-07 23:32:55.411 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #37/100 - Testing log rotation
+2026-02-07 23:32:55.411 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #37/100 - Testing log rotation
+2026-02-07 23:32:55.411 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #38/100 - Testing log rotation
+2026-02-07 23:32:55.411 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #38/100 - Testing log rotation
+2026-02-07 23:32:55.411 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #39/100 - Testing log rotation
+2026-02-07 23:32:55.411 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #39/100 - Testing log rotation
+2026-02-07 23:32:55.411 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #40/100 - Testing log rotation
+2026-02-07 23:32:55.411 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #40/100 - Testing log rotation
+2026-02-07 23:32:55.411 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #41/100 - Testing log rotation
+2026-02-07 23:32:55.411 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #41/100 - Testing log rotation
+2026-02-07 23:32:55.412 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #42/100 - Testing log rotation
+2026-02-07 23:32:55.412 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #42/100 - Testing log rotation
+2026-02-07 23:32:55.412 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #43/100 - Testing log rotation
+2026-02-07 23:32:55.412 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #43/100 - Testing log rotation
+2026-02-07 23:32:55.412 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #44/100 - Testing log rotation
+2026-02-07 23:32:55.412 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #44/100 - Testing log rotation
+2026-02-07 23:32:55.412 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #45/100 - Testing log rotation
+2026-02-07 23:32:55.412 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #45/100 - Testing log rotation
+2026-02-07 23:32:55.413 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #46/100 - Testing log rotation
+2026-02-07 23:32:55.413 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #46/100 - Testing log rotation
+2026-02-07 23:32:55.413 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #47/100 - Testing log rotation
+2026-02-07 23:32:55.413 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #47/100 - Testing log rotation
+2026-02-07 23:32:55.413 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #48/100 - Testing log rotation
+2026-02-07 23:32:55.413 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #48/100 - Testing log rotation
+2026-02-07 23:32:55.413 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #49/100 - Testing log rotation
+2026-02-07 23:32:55.413 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #49/100 - Testing log rotation
+2026-02-07 23:32:55.413 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #50/100 - Testing log rotation
+2026-02-07 23:32:55.413 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #50/100 - Testing log rotation
+2026-02-07 23:32:55.413 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #51/100 - Testing log rotation
+2026-02-07 23:32:55.413 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #51/100 - Testing log rotation
+2026-02-07 23:32:55.414 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #52/100 - Testing log rotation
+2026-02-07 23:32:55.414 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #52/100 - Testing log rotation
+2026-02-07 23:32:55.414 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #53/100 - Testing log rotation
+2026-02-07 23:32:55.414 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #53/100 - Testing log rotation
+2026-02-07 23:32:55.414 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #54/100 - Testing log rotation
+2026-02-07 23:32:55.414 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #54/100 - Testing log rotation
+2026-02-07 23:32:55.414 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #55/100 - Testing log rotation
+2026-02-07 23:32:55.414 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #55/100 - Testing log rotation
+2026-02-07 23:32:55.414 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #56/100 - Testing log rotation
+2026-02-07 23:32:55.414 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #56/100 - Testing log rotation
+2026-02-07 23:32:55.414 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #57/100 - Testing log rotation
+2026-02-07 23:32:55.414 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #57/100 - Testing log rotation
+2026-02-07 23:32:55.415 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #58/100 - Testing log rotation
+2026-02-07 23:32:55.415 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #58/100 - Testing log rotation
+2026-02-07 23:32:55.415 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #59/100 - Testing log rotation
+2026-02-07 23:32:55.415 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #59/100 - Testing log rotation
+2026-02-07 23:32:55.415 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #60/100 - Testing log rotation
+2026-02-07 23:32:55.415 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #60/100 - Testing log rotation
+2026-02-07 23:32:55.415 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #61/100 - Testing log rotation
+2026-02-07 23:32:55.415 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #61/100 - Testing log rotation
+2026-02-07 23:32:55.415 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #62/100 - Testing log rotation
+2026-02-07 23:32:55.415 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #62/100 - Testing log rotation
+2026-02-07 23:32:55.416 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #63/100 - Testing log rotation
+2026-02-07 23:32:55.416 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #63/100 - Testing log rotation
+2026-02-07 23:32:55.416 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #64/100 - Testing log rotation
+2026-02-07 23:32:55.416 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #64/100 - Testing log rotation
+2026-02-07 23:32:55.416 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #65/100 - Testing log rotation
+2026-02-07 23:32:55.416 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #65/100 - Testing log rotation
+2026-02-07 23:32:55.416 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #66/100 - Testing log rotation
+2026-02-07 23:32:55.416 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #66/100 - Testing log rotation
+2026-02-07 23:32:55.416 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #67/100 - Testing log rotation
+2026-02-07 23:32:55.416 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #67/100 - Testing log rotation
+2026-02-07 23:32:55.416 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #68/100 - Testing log rotation
+2026-02-07 23:32:55.416 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #68/100 - Testing log rotation
+2026-02-07 23:32:55.416 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #69/100 - Testing log rotation
+2026-02-07 23:32:55.416 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #69/100 - Testing log rotation
+2026-02-07 23:32:55.417 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #70/100 - Testing log rotation
+2026-02-07 23:32:55.417 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #70/100 - Testing log rotation
+2026-02-07 23:32:55.417 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #71/100 - Testing log rotation
+2026-02-07 23:32:55.417 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #71/100 - Testing log rotation
+2026-02-07 23:32:55.417 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #72/100 - Testing log rotation
+2026-02-07 23:32:55.417 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #72/100 - Testing log rotation
+2026-02-07 23:32:55.417 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #73/100 - Testing log rotation
+2026-02-07 23:32:55.417 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #73/100 - Testing log rotation
+2026-02-07 23:32:55.417 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #74/100 - Testing log rotation
+2026-02-07 23:32:55.417 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #74/100 - Testing log rotation
+2026-02-07 23:32:55.418 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #75/100 - Testing log rotation
+2026-02-07 23:32:55.418 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #75/100 - Testing log rotation
+2026-02-07 23:32:55.418 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #76/100 - Testing log rotation
+2026-02-07 23:32:55.418 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #76/100 - Testing log rotation
+2026-02-07 23:32:55.418 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #77/100 - Testing log rotation
+2026-02-07 23:32:55.418 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #77/100 - Testing log rotation
+2026-02-07 23:32:55.418 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #78/100 - Testing log rotation
+2026-02-07 23:32:55.418 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #78/100 - Testing log rotation
+2026-02-07 23:32:55.418 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #79/100 - Testing log rotation
+2026-02-07 23:32:55.418 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #79/100 - Testing log rotation
+2026-02-07 23:32:55.419 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #80/100 - Testing log rotation
+2026-02-07 23:32:55.419 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #80/100 - Testing log rotation
+2026-02-07 23:32:55.419 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #81/100 - Testing log rotation
+2026-02-07 23:32:55.419 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #81/100 - Testing log rotation
+2026-02-07 23:32:55.419 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #82/100 - Testing log rotation
+2026-02-07 23:32:55.419 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #82/100 - Testing log rotation
+2026-02-07 23:32:55.419 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #83/100 - Testing log rotation
+2026-02-07 23:32:55.419 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #83/100 - Testing log rotation
+2026-02-07 23:32:55.419 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #84/100 - Testing log rotation
+2026-02-07 23:32:55.419 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #84/100 - Testing log rotation
+2026-02-07 23:32:55.420 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #85/100 - Testing log rotation
+2026-02-07 23:32:55.420 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #85/100 - Testing log rotation
+2026-02-07 23:32:55.420 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #86/100 - Testing log rotation
+2026-02-07 23:32:55.420 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #86/100 - Testing log rotation
+2026-02-07 23:32:55.420 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #87/100 - Testing log rotation
+2026-02-07 23:32:55.420 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #87/100 - Testing log rotation
+2026-02-07 23:32:55.420 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #88/100 - Testing log rotation
+2026-02-07 23:32:55.420 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #88/100 - Testing log rotation
+2026-02-07 23:32:55.420 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #89/100 - Testing log rotation
+2026-02-07 23:32:55.420 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #89/100 - Testing log rotation
+2026-02-07 23:32:55.420 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #90/100 - Testing log rotation
+2026-02-07 23:32:55.420 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #90/100 - Testing log rotation
+2026-02-07 23:32:55.421 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #91/100 - Testing log rotation
+2026-02-07 23:32:55.421 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #91/100 - Testing log rotation
+2026-02-07 23:32:55.421 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #92/100 - Testing log rotation
+2026-02-07 23:32:55.421 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #92/100 - Testing log rotation
+2026-02-07 23:32:55.421 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #93/100 - Testing log rotation
+2026-02-07 23:32:55.421 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #93/100 - Testing log rotation
+2026-02-07 23:32:55.421 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #94/100 - Testing log rotation
+2026-02-07 23:32:55.421 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #94/100 - Testing log rotation
+2026-02-07 23:32:55.421 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #95/100 - Testing log rotation
+2026-02-07 23:32:55.421 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #95/100 - Testing log rotation
+2026-02-07 23:32:55.422 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #96/100 - Testing log rotation
+2026-02-07 23:32:55.422 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #96/100 - Testing log rotation
+2026-02-07 23:32:55.422 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #97/100 - Testing log rotation
+2026-02-07 23:32:55.422 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #97/100 - Testing log rotation
+2026-02-07 23:32:55.422 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #98/100 - Testing log rotation
+2026-02-07 23:32:55.422 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #98/100 - Testing log rotation
+2026-02-07 23:32:55.422 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #99/100 - Testing log rotation
+2026-02-07 23:32:55.422 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #99/100 - Testing log rotation
+2026-02-07 23:32:55.422 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #100/100 - Testing log rotation
+2026-02-07 23:32:55.422 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #100/100 - Testing log rotation
+2026-02-07 23:32:55.587 [main] INFO  com.revconnectapp.util.LogTest - Performance: testPerformanceLogging took 163 ms
+2026-02-07 23:32:55.587 [main] INFO  com.revconnectapp.util.LogTest - Performance: testPerformanceLogging took 163 ms
+2026-02-07 23:32:56.803 [main] WARN  com.revconnectapp.util.LogTest - Performance: slowOperation took 1215 ms
+2026-02-07 23:32:56.803 [main] WARN  com.revconnectapp.util.LogTest - Performance: slowOperation took 1215 ms
+2026-02-07 23:32:56.806 [main] INFO  com.revconnectapp.util.LogTest - Testing file logging - INFO message
+2026-02-07 23:32:56.806 [main] INFO  com.revconnectapp.util.LogTest - Testing file logging - INFO message
+2026-02-07 23:32:56.807 [main] WARN  com.revconnectapp.util.LogTest - Testing file logging - WARN message
+2026-02-07 23:32:56.807 [main] WARN  com.revconnectapp.util.LogTest - Testing file logging - WARN message
+2026-02-07 23:32:56.807 [main] ERROR com.revconnectapp.util.LogTest - Testing file logging - ERROR message
+2026-02-07 23:32:56.807 [main] ERROR com.revconnectapp.util.LogTest - Testing file logging - ERROR message
+2026-02-07 23:32:56.816 [main] DEBUG com.revconnectapp.dao.UserDAO - Starting database connection
+2026-02-07 23:32:56.816 [main] DEBUG com.revconnectapp.dao.UserDAO - Starting database connection
+2026-02-07 23:32:56.817 [main] INFO  com.revconnectapp.dao.UserDAO - Executing query: SELECT * FROM users
+2026-02-07 23:32:56.817 [main] INFO  com.revconnectapp.dao.UserDAO - Executing query: SELECT * FROM users
+2026-02-07 23:32:56.817 [main] WARN  com.revconnectapp.dao.UserDAO - Slow query detected: took 1500ms
+2026-02-07 23:32:56.817 [main] WARN  com.revconnectapp.dao.UserDAO - Slow query detected: took 1500ms
+2026-02-07 23:32:56.817 [main] ERROR com.revconnectapp.dao.UserDAO - Database connection failed
+java.lang.RuntimeException: Connection timeout
+	at com.revconnectapp.util.LogTest.testDAOLayerLogging(LogTest.java:49) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100) [org.eclipse.jdt.junit5.runtime_1.2.0.v20251113-1434.jar:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+2026-02-07 23:32:56.817 [main] ERROR com.revconnectapp.dao.UserDAO - Database connection failed
+java.lang.RuntimeException: Connection timeout
+	at com.revconnectapp.util.LogTest.testDAOLayerLogging(LogTest.java:49) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100) [org.eclipse.jdt.junit5.runtime_1.2.0.v20251113-1434.jar:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+2026-02-07 23:33:13.447 [main] DEBUG com.revconnectapp.model.User - User object created
+2026-02-07 23:33:13.447 [main] DEBUG com.revconnectapp.model.User - User object created
+2026-02-07 23:33:13.453 [main] INFO  com.revconnectapp.model.Post - Post saved successfully
+2026-02-07 23:33:13.453 [main] INFO  com.revconnectapp.model.Post - Post saved successfully
+2026-02-07 23:33:13.454 [main] WARN  com.revconnectapp.service.UserService - Service method taking longer than expected
+2026-02-07 23:33:13.454 [main] WARN  com.revconnectapp.service.UserService - Service method taking longer than expected
+2026-02-07 23:33:13.473 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #1/100 - Testing log rotation
+2026-02-07 23:33:13.473 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #1/100 - Testing log rotation
+2026-02-07 23:33:13.473 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #2/100 - Testing log rotation
+2026-02-07 23:33:13.473 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #2/100 - Testing log rotation
+2026-02-07 23:33:13.474 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #3/100 - Testing log rotation
+2026-02-07 23:33:13.474 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #3/100 - Testing log rotation
+2026-02-07 23:33:13.474 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #4/100 - Testing log rotation
+2026-02-07 23:33:13.474 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #4/100 - Testing log rotation
+2026-02-07 23:33:13.474 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #5/100 - Testing log rotation
+2026-02-07 23:33:13.474 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #5/100 - Testing log rotation
+2026-02-07 23:33:13.475 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #6/100 - Testing log rotation
+2026-02-07 23:33:13.475 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #6/100 - Testing log rotation
+2026-02-07 23:33:13.475 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #7/100 - Testing log rotation
+2026-02-07 23:33:13.475 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #7/100 - Testing log rotation
+2026-02-07 23:33:13.475 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #8/100 - Testing log rotation
+2026-02-07 23:33:13.475 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #8/100 - Testing log rotation
+2026-02-07 23:33:13.475 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #9/100 - Testing log rotation
+2026-02-07 23:33:13.475 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #9/100 - Testing log rotation
+2026-02-07 23:33:13.476 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #10/100 - Testing log rotation
+2026-02-07 23:33:13.476 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #10/100 - Testing log rotation
+2026-02-07 23:33:13.477 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #11/100 - Testing log rotation
+2026-02-07 23:33:13.477 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #11/100 - Testing log rotation
+2026-02-07 23:33:13.477 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #12/100 - Testing log rotation
+2026-02-07 23:33:13.477 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #12/100 - Testing log rotation
+2026-02-07 23:33:13.477 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #13/100 - Testing log rotation
+2026-02-07 23:33:13.477 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #13/100 - Testing log rotation
+2026-02-07 23:33:13.477 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #14/100 - Testing log rotation
+2026-02-07 23:33:13.477 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #14/100 - Testing log rotation
+2026-02-07 23:33:13.478 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #15/100 - Testing log rotation
+2026-02-07 23:33:13.478 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #15/100 - Testing log rotation
+2026-02-07 23:33:13.478 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #16/100 - Testing log rotation
+2026-02-07 23:33:13.478 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #16/100 - Testing log rotation
+2026-02-07 23:33:13.478 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #17/100 - Testing log rotation
+2026-02-07 23:33:13.478 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #17/100 - Testing log rotation
+2026-02-07 23:33:13.478 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #18/100 - Testing log rotation
+2026-02-07 23:33:13.478 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #18/100 - Testing log rotation
+2026-02-07 23:33:13.478 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #19/100 - Testing log rotation
+2026-02-07 23:33:13.478 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #19/100 - Testing log rotation
+2026-02-07 23:33:13.479 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #20/100 - Testing log rotation
+2026-02-07 23:33:13.479 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #20/100 - Testing log rotation
+2026-02-07 23:33:13.479 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #21/100 - Testing log rotation
+2026-02-07 23:33:13.479 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #21/100 - Testing log rotation
+2026-02-07 23:33:13.479 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #22/100 - Testing log rotation
+2026-02-07 23:33:13.479 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #22/100 - Testing log rotation
+2026-02-07 23:33:13.479 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #23/100 - Testing log rotation
+2026-02-07 23:33:13.479 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #23/100 - Testing log rotation
+2026-02-07 23:33:13.480 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #24/100 - Testing log rotation
+2026-02-07 23:33:13.480 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #24/100 - Testing log rotation
+2026-02-07 23:33:13.480 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #25/100 - Testing log rotation
+2026-02-07 23:33:13.480 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #25/100 - Testing log rotation
+2026-02-07 23:33:13.480 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #26/100 - Testing log rotation
+2026-02-07 23:33:13.480 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #26/100 - Testing log rotation
+2026-02-07 23:33:13.480 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #27/100 - Testing log rotation
+2026-02-07 23:33:13.480 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #27/100 - Testing log rotation
+2026-02-07 23:33:13.481 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #28/100 - Testing log rotation
+2026-02-07 23:33:13.481 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #28/100 - Testing log rotation
+2026-02-07 23:33:13.481 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #29/100 - Testing log rotation
+2026-02-07 23:33:13.481 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #29/100 - Testing log rotation
+2026-02-07 23:33:13.481 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #30/100 - Testing log rotation
+2026-02-07 23:33:13.481 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #30/100 - Testing log rotation
+2026-02-07 23:33:13.482 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #31/100 - Testing log rotation
+2026-02-07 23:33:13.482 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #31/100 - Testing log rotation
+2026-02-07 23:33:13.482 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #32/100 - Testing log rotation
+2026-02-07 23:33:13.482 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #32/100 - Testing log rotation
+2026-02-07 23:33:13.482 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #33/100 - Testing log rotation
+2026-02-07 23:33:13.482 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #33/100 - Testing log rotation
+2026-02-07 23:33:13.482 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #34/100 - Testing log rotation
+2026-02-07 23:33:13.482 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #34/100 - Testing log rotation
+2026-02-07 23:33:13.482 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #35/100 - Testing log rotation
+2026-02-07 23:33:13.482 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #35/100 - Testing log rotation
+2026-02-07 23:33:13.483 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #36/100 - Testing log rotation
+2026-02-07 23:33:13.483 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #36/100 - Testing log rotation
+2026-02-07 23:33:13.483 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #37/100 - Testing log rotation
+2026-02-07 23:33:13.483 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #37/100 - Testing log rotation
+2026-02-07 23:33:13.483 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #38/100 - Testing log rotation
+2026-02-07 23:33:13.483 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #38/100 - Testing log rotation
+2026-02-07 23:33:13.483 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #39/100 - Testing log rotation
+2026-02-07 23:33:13.483 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #39/100 - Testing log rotation
+2026-02-07 23:33:13.484 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #40/100 - Testing log rotation
+2026-02-07 23:33:13.484 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #40/100 - Testing log rotation
+2026-02-07 23:33:13.484 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #41/100 - Testing log rotation
+2026-02-07 23:33:13.484 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #41/100 - Testing log rotation
+2026-02-07 23:33:13.484 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #42/100 - Testing log rotation
+2026-02-07 23:33:13.484 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #42/100 - Testing log rotation
+2026-02-07 23:33:13.484 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #43/100 - Testing log rotation
+2026-02-07 23:33:13.484 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #43/100 - Testing log rotation
+2026-02-07 23:33:13.484 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #44/100 - Testing log rotation
+2026-02-07 23:33:13.484 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #44/100 - Testing log rotation
+2026-02-07 23:33:13.485 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #45/100 - Testing log rotation
+2026-02-07 23:33:13.485 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #45/100 - Testing log rotation
+2026-02-07 23:33:13.485 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #46/100 - Testing log rotation
+2026-02-07 23:33:13.485 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #46/100 - Testing log rotation
+2026-02-07 23:33:13.485 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #47/100 - Testing log rotation
+2026-02-07 23:33:13.485 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #47/100 - Testing log rotation
+2026-02-07 23:33:13.485 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #48/100 - Testing log rotation
+2026-02-07 23:33:13.485 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #48/100 - Testing log rotation
+2026-02-07 23:33:13.485 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #49/100 - Testing log rotation
+2026-02-07 23:33:13.485 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #49/100 - Testing log rotation
+2026-02-07 23:33:13.485 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #50/100 - Testing log rotation
+2026-02-07 23:33:13.485 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #50/100 - Testing log rotation
+2026-02-07 23:33:13.486 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #51/100 - Testing log rotation
+2026-02-07 23:33:13.486 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #51/100 - Testing log rotation
+2026-02-07 23:33:13.486 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #52/100 - Testing log rotation
+2026-02-07 23:33:13.486 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #52/100 - Testing log rotation
+2026-02-07 23:33:13.486 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #53/100 - Testing log rotation
+2026-02-07 23:33:13.486 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #53/100 - Testing log rotation
+2026-02-07 23:33:13.486 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #54/100 - Testing log rotation
+2026-02-07 23:33:13.486 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #54/100 - Testing log rotation
+2026-02-07 23:33:13.486 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #55/100 - Testing log rotation
+2026-02-07 23:33:13.486 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #55/100 - Testing log rotation
+2026-02-07 23:33:13.487 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #56/100 - Testing log rotation
+2026-02-07 23:33:13.487 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #56/100 - Testing log rotation
+2026-02-07 23:33:13.487 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #57/100 - Testing log rotation
+2026-02-07 23:33:13.487 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #57/100 - Testing log rotation
+2026-02-07 23:33:13.487 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #58/100 - Testing log rotation
+2026-02-07 23:33:13.487 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #58/100 - Testing log rotation
+2026-02-07 23:33:13.487 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #59/100 - Testing log rotation
+2026-02-07 23:33:13.487 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #59/100 - Testing log rotation
+2026-02-07 23:33:13.487 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #60/100 - Testing log rotation
+2026-02-07 23:33:13.487 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #60/100 - Testing log rotation
+2026-02-07 23:33:13.488 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #61/100 - Testing log rotation
+2026-02-07 23:33:13.488 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #61/100 - Testing log rotation
+2026-02-07 23:33:13.489 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #62/100 - Testing log rotation
+2026-02-07 23:33:13.489 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #62/100 - Testing log rotation
+2026-02-07 23:33:13.489 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #63/100 - Testing log rotation
+2026-02-07 23:33:13.489 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #63/100 - Testing log rotation
+2026-02-07 23:33:13.489 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #64/100 - Testing log rotation
+2026-02-07 23:33:13.489 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #64/100 - Testing log rotation
+2026-02-07 23:33:13.489 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #65/100 - Testing log rotation
+2026-02-07 23:33:13.489 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #65/100 - Testing log rotation
+2026-02-07 23:33:13.489 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #66/100 - Testing log rotation
+2026-02-07 23:33:13.489 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #66/100 - Testing log rotation
+2026-02-07 23:33:13.489 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #67/100 - Testing log rotation
+2026-02-07 23:33:13.489 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #67/100 - Testing log rotation
+2026-02-07 23:33:13.489 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #68/100 - Testing log rotation
+2026-02-07 23:33:13.489 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #68/100 - Testing log rotation
+2026-02-07 23:33:13.490 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #69/100 - Testing log rotation
+2026-02-07 23:33:13.490 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #69/100 - Testing log rotation
+2026-02-07 23:33:13.490 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #70/100 - Testing log rotation
+2026-02-07 23:33:13.490 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #70/100 - Testing log rotation
+2026-02-07 23:33:13.490 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #71/100 - Testing log rotation
+2026-02-07 23:33:13.490 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #71/100 - Testing log rotation
+2026-02-07 23:33:13.490 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #72/100 - Testing log rotation
+2026-02-07 23:33:13.490 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #72/100 - Testing log rotation
+2026-02-07 23:33:13.490 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #73/100 - Testing log rotation
+2026-02-07 23:33:13.490 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #73/100 - Testing log rotation
+2026-02-07 23:33:13.490 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #74/100 - Testing log rotation
+2026-02-07 23:33:13.490 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #74/100 - Testing log rotation
+2026-02-07 23:33:13.490 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #75/100 - Testing log rotation
+2026-02-07 23:33:13.490 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #75/100 - Testing log rotation
+2026-02-07 23:33:13.491 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #76/100 - Testing log rotation
+2026-02-07 23:33:13.491 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #76/100 - Testing log rotation
+2026-02-07 23:33:13.491 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #77/100 - Testing log rotation
+2026-02-07 23:33:13.491 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #77/100 - Testing log rotation
+2026-02-07 23:33:13.491 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #78/100 - Testing log rotation
+2026-02-07 23:33:13.491 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #78/100 - Testing log rotation
+2026-02-07 23:33:13.491 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #79/100 - Testing log rotation
+2026-02-07 23:33:13.491 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #79/100 - Testing log rotation
+2026-02-07 23:33:13.491 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #80/100 - Testing log rotation
+2026-02-07 23:33:13.491 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #80/100 - Testing log rotation
+2026-02-07 23:33:13.491 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #81/100 - Testing log rotation
+2026-02-07 23:33:13.491 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #81/100 - Testing log rotation
+2026-02-07 23:33:13.491 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #82/100 - Testing log rotation
+2026-02-07 23:33:13.491 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #82/100 - Testing log rotation
+2026-02-07 23:33:13.491 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #83/100 - Testing log rotation
+2026-02-07 23:33:13.491 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #83/100 - Testing log rotation
+2026-02-07 23:33:13.492 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #84/100 - Testing log rotation
+2026-02-07 23:33:13.492 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #84/100 - Testing log rotation
+2026-02-07 23:33:13.492 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #85/100 - Testing log rotation
+2026-02-07 23:33:13.492 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #85/100 - Testing log rotation
+2026-02-07 23:33:13.492 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #86/100 - Testing log rotation
+2026-02-07 23:33:13.492 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #86/100 - Testing log rotation
+2026-02-07 23:33:13.492 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #87/100 - Testing log rotation
+2026-02-07 23:33:13.492 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #87/100 - Testing log rotation
+2026-02-07 23:33:13.492 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #88/100 - Testing log rotation
+2026-02-07 23:33:13.492 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #88/100 - Testing log rotation
+2026-02-07 23:33:13.492 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #89/100 - Testing log rotation
+2026-02-07 23:33:13.492 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #89/100 - Testing log rotation
+2026-02-07 23:33:13.492 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #90/100 - Testing log rotation
+2026-02-07 23:33:13.492 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #90/100 - Testing log rotation
+2026-02-07 23:33:13.492 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #91/100 - Testing log rotation
+2026-02-07 23:33:13.492 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #91/100 - Testing log rotation
+2026-02-07 23:33:13.493 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #92/100 - Testing log rotation
+2026-02-07 23:33:13.493 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #92/100 - Testing log rotation
+2026-02-07 23:33:13.493 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #93/100 - Testing log rotation
+2026-02-07 23:33:13.493 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #93/100 - Testing log rotation
+2026-02-07 23:33:13.493 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #94/100 - Testing log rotation
+2026-02-07 23:33:13.493 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #94/100 - Testing log rotation
+2026-02-07 23:33:13.493 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #95/100 - Testing log rotation
+2026-02-07 23:33:13.493 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #95/100 - Testing log rotation
+2026-02-07 23:33:13.493 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #96/100 - Testing log rotation
+2026-02-07 23:33:13.493 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #96/100 - Testing log rotation
+2026-02-07 23:33:13.493 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #97/100 - Testing log rotation
+2026-02-07 23:33:13.493 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #97/100 - Testing log rotation
+2026-02-07 23:33:13.493 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #98/100 - Testing log rotation
+2026-02-07 23:33:13.493 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #98/100 - Testing log rotation
+2026-02-07 23:33:13.494 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #99/100 - Testing log rotation
+2026-02-07 23:33:13.494 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #99/100 - Testing log rotation
+2026-02-07 23:33:13.494 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #100/100 - Testing log rotation
+2026-02-07 23:33:13.494 [main] INFO  com.revconnectapp.util.LogTest - Test log entry #100/100 - Testing log rotation
+2026-02-07 23:33:13.658 [main] INFO  com.revconnectapp.util.LogTest - Performance: testPerformanceLogging took 162 ms
+2026-02-07 23:33:13.658 [main] INFO  com.revconnectapp.util.LogTest - Performance: testPerformanceLogging took 162 ms
+2026-02-07 23:33:14.870 [main] WARN  com.revconnectapp.util.LogTest - Performance: slowOperation took 1212 ms
+2026-02-07 23:33:14.870 [main] WARN  com.revconnectapp.util.LogTest - Performance: slowOperation took 1212 ms
+2026-02-07 23:33:14.872 [main] INFO  com.revconnectapp.util.LogTest - Testing file logging - INFO message
+2026-02-07 23:33:14.872 [main] INFO  com.revconnectapp.util.LogTest - Testing file logging - INFO message
+2026-02-07 23:33:14.873 [main] WARN  com.revconnectapp.util.LogTest - Testing file logging - WARN message
+2026-02-07 23:33:14.873 [main] WARN  com.revconnectapp.util.LogTest - Testing file logging - WARN message
+2026-02-07 23:33:14.873 [main] ERROR com.revconnectapp.util.LogTest - Testing file logging - ERROR message
+2026-02-07 23:33:14.873 [main] ERROR com.revconnectapp.util.LogTest - Testing file logging - ERROR message
+2026-02-07 23:33:14.879 [main] DEBUG com.revconnectapp.dao.UserDAO - Starting database connection
+2026-02-07 23:33:14.879 [main] DEBUG com.revconnectapp.dao.UserDAO - Starting database connection
+2026-02-07 23:33:14.879 [main] INFO  com.revconnectapp.dao.UserDAO - Executing query: SELECT * FROM users
+2026-02-07 23:33:14.879 [main] INFO  com.revconnectapp.dao.UserDAO - Executing query: SELECT * FROM users
+2026-02-07 23:33:14.879 [main] WARN  com.revconnectapp.dao.UserDAO - Slow query detected: took 1500ms
+2026-02-07 23:33:14.879 [main] WARN  com.revconnectapp.dao.UserDAO - Slow query detected: took 1500ms
+2026-02-07 23:33:14.880 [main] ERROR com.revconnectapp.dao.UserDAO - Database connection failed
+java.lang.RuntimeException: Connection timeout
+	at com.revconnectapp.util.LogTest.testDAOLayerLogging(LogTest.java:49) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100) [org.eclipse.jdt.junit5.runtime_1.2.0.v20251113-1434.jar:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]
+2026-02-07 23:33:14.880 [main] ERROR com.revconnectapp.dao.UserDAO - Database connection failed
+java.lang.RuntimeException: Connection timeout
+	at com.revconnectapp.util.LogTest.testDAOLayerLogging(LogTest.java:49) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:94) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:52) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:70) [junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:100) [org.eclipse.jdt.junit5.runtime_1.2.0.v20251113-1434.jar:?]
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452) [.cp/:?]
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210) [.cp/:?]

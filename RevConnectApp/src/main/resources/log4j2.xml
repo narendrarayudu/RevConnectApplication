@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+    
+    <!-- Define Properties -->
+    <Properties>
+        <!-- Log file locations -->
+        <Property name="LOG_PATTERN">%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Property>
+        <Property name="APP_LOG_ROOT">logs</Property>
+        <Property name="APP_LOG_FILE">${APP_LOG_ROOT}/revconnect-app.log</Property>
+        <Property name="ERROR_LOG_FILE">${APP_LOG_ROOT}/revconnect-error.log</Property>
+        <Property name="DB_LOG_FILE">${APP_LOG_ROOT}/revconnect-db.log</Property>
+        
+        <!-- Console colors -->
+        <Property name="STYLE_RESET">\u001b[0m</Property>
+        <Property name="STYLE_BLACK">\u001b[30m</Property>
+        <Property name="STYLE_RED">\u001b[31m</Property>
+        <Property name="STYLE_GREEN">\u001b[32m</Property>
+        <Property name="STYLE_YELLOW">\u001b[33m</Property>
+        <Property name="STYLE_BLUE">\u001b[34m</Property>
+        <Property name="STYLE_MAGENTA">\u001b[35m</Property>
+        <Property name="STYLE_CYAN">\u001b[36m</Property>
+        <Property name="STYLE_WHITE">\u001b[37m</Property>
+    </Properties>
+    
+    <!-- Define Appenders -->
+    <Appenders>
+        <!-- Console Appender with Colors -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${STYLE_CYAN}%d{yyyy-MM-dd HH:mm:ss.SSS} ${STYLE_RESET}| ${STYLE_YELLOW}%t ${STYLE_RESET}| %highlight{%-5level} | ${STYLE_GREEN}%logger{36}${STYLE_RESET} - %msg%n"/>
+        </Console>
+        
+        <!-- Main Application Log File -->
+        <RollingFile name="FileAppender" 
+                     fileName="${APP_LOG_FILE}"
+                     filePattern="${APP_LOG_ROOT}/revconnect-app-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="10 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+        
+        <!-- Error-only Log File -->
+        <RollingFile name="ErrorFileAppender" 
+                     fileName="${ERROR_LOG_FILE}"
+                     filePattern="${APP_LOG_ROOT}/revconnect-error-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <ThresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="5 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+        
+        <!-- Database-specific Log File -->
+        <RollingFile name="DBFileAppender" 
+                     fileName="${DB_LOG_FILE}"
+                     filePattern="${APP_LOG_ROOT}/revconnect-db-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="5 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+        
+        <!-- Async Appender for better performance -->
+        <Async name="AsyncAppender" includeLocation="true">
+            <AppenderRef ref="FileAppender"/>
+        </Async>
+    </Appenders>
+    
+    <!-- Define Loggers -->
+    <Loggers>
+        <!-- Root Logger -->
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="AsyncAppender"/>
+            <AppenderRef ref="ErrorFileAppender"/>
+        </Root>
+        
+        <!-- Application-specific Loggers -->
+        <Logger name="com.revconnectapp" level="DEBUG" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="AsyncAppender"/>
+        </Logger>
+        
+        <!-- DAO Layer Logging -->
+        <Logger name="com.revconnectapp.dao" level="DEBUG" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="DBFileAppender"/>
+            <AppenderRef ref="AsyncAppender"/>
+        </Logger>
+        
+        <!-- Service Layer Logging -->
+        <Logger name="com.revconnectapp.service" level="INFO" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="AsyncAppender"/>
+        </Logger>
+        
+        <!-- UI Layer Logging -->
+        <Logger name="com.revconnectapp.ui" level="INFO" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
+        
+        <!-- Database Query Logging -->
+        <Logger name="java.sql" level="WARN" additivity="false">
+            <AppenderRef ref="DBFileAppender"/>
+        </Logger>
+        
+        <Logger name="java.sql.Connection" level="INFO"/>
+        <Logger name="java.sql.Statement" level="DEBUG"/>
+        <Logger name="java.sql.PreparedStatement" level="DEBUG"/>
+        <Logger name="java.sql.ResultSet" level="WARN"/>
+        
+        <!-- Third-party Libraries -->
+        <Logger name="org.springframework" level="WARN"/>
+        <Logger name="org.hibernate" level="WARN"/>
+        <Logger name="org.apache" level="WARN"/>
+    </Loggers>
+</Configuration>

@@ -143,69 +143,102 @@ RevConnectApp/
 │   ├── main/
 │   │   ├── java/
 │   │   │   └── com/revconnectapp/
-│   │   │       ├── App.java                    # Main application entry point
-│   │   │       ├── DBTest.java                 # Database connection testing
-│   │   │       └── NotificationTest.java       # Notification system testing
+│   │   │       ├── App.java                          # Main application entry point
+│   │   │       ├── DBTest.java                       # Database connection testing
+│   │   │       ├── NotificationTest.java             # Notification system testing
+│   │   │       └── TestLogging.java                  # Logging system testing
 │   │   │
-│   │   │       ├── dao/                        # Data Access Objects
-│   │   │       │   ├── CommentDAO.java         # Comment data operations
-│   │   │       │   ├── ConnectionDAO.java      # Connection management
-│   │   │       │   ├── FollowDAO.java          # Follow relationships
-│   │   │       │   ├── LikeDAO.java            # Like operations
-│   │   │       │   ├── NotificationDAO.java    # Notification handling
-│   │   │       │   ├── PostDAO.java            # Post CRUD operations
-│   │   │       │   ├── ProfileDAO.java         # Profile management
-│   │   │       │   └── UserDAO.java            # User authentication and data
+│   │   │       ├── dao/                              # Data Access Objects Layer
+│   │   │       │   ├── CommentDAO.java              # CRUD operations for comments
+│   │   │       │   ├── ConnectionDAO.java           # Connection request management
+│   │   │       │   ├── FollowDAO.java               # Follow relationship operations
+│   │   │       │   ├── LikeDAO.java                 # Like/unlike operations
+│   │   │       │   ├── NotificationDAO.java         # Notification storage/retrieval
+│   │   │       │   ├── PostDAO.java                 # Post CRUD operations
+│   │   │       │   ├── ProfileDAO.java              # Profile management operations
+│   │   │       │   └── UserDAO.java                 # User authentication and data
 │   │   │
-│   │   │       ├── model/                      # Entity Models
-│   │   │       │   ├── Comment.java            # Comment entity
-│   │   │       │   ├── Connection.java         # Connection entity
-│   │   │       │   ├── Follow.java             # Follow relationship
-│   │   │       │   ├── Like.java               # Like entity (composite key)
-│   │   │       │   ├── Notification.java       # Notification entity
-│   │   │       │   ├── Post.java               # Post entity
-│   │   │       │   ├── Profile.java            # Profile entity
-│   │   │       │   └── User.java               # User entity
+│   │   │       ├── model/                            # Entity Models Layer
+│   │   │       │   ├── Comment.java                 # Comment entity class
+│   │   │       │   ├── Connection.java              # Connection entity with status
+│   │   │       │   ├── Like.java                    # Like entity (composite key)
+│   │   │       │   ├── Notification.java            # Notification entity
+│   │   │       │   ├── Post.java                    # Post entity with hashtags
+│   │   │       │   ├── Profile.java                 # Profile entity
+│   │   │       │   └── User.java                    # User entity
 │   │   │
-│   │   │       ├── repository/                 # Repository interfaces (optional)
+│   │   │       ├── service/                          # Business Logic Layer
+│   │   │       │   ├── CommentService.java          # Comment business logic
+│   │   │       │   ├── ConnectionService.java       # Connection management logic
+│   │   │       │   ├── FollowService.java           # Follow relationship logic
+│   │   │       │   ├── LikeService.java             # Like/unlike business logic
+│   │   │       │   ├── NotificationService.java     # Notification generation logic
+│   │   │       │   ├── PostService.java             # Post business logic
+│   │   │       │   ├── ProfileService.java          # Profile management logic
+│   │   │       │   └── UserService.java             # User authentication logic
 │   │   │
-│   │   │       ├── service/                    # Business Logic Layer
-│   │   │       │   ├── UserService.java        # User management logic
-│   │   │       │   ├── PostService.java        # Post operations logic
-│   │   │       │   ├── ConnectionService.java  # Connection management logic
-│   │   │       │   ├── NotificationService.java # Notification logic
-│   │   │       │   └── FeedService.java        # Timeline and feed logic
+│   │   │       ├── ui/                               # User Interface Layer
+│   │   │       │   ├── MainMenu.java                # Main navigation controller
+│   │   │       │   ├── NotificationMenu.java        # Notification management UI
+│   │   │       │   └── ProfileMenu.java             # Profile management UI
 │   │   │
-│   │   │       ├── ui/                         # User Interface Layer
-│   │   │       │   ├── MainMenu.java           # Main navigation menu
-│   │   │       │   ├── NotificationMenu.java   # Notification management
-│   │   │       │   └── ProfileMenu.java        # Profile management
+│   │   │       └── util/                             # Utility Classes
+│   │   │           ├── ConnectionUtil.java          # Database connection utilities
+│   │   │           ├── InputUtil.java               # Input validation and parsing
+│   │   │           ├── LoggerUtil.java              # Logging wrapper
+│   │   │           └── LogUtil.java                 # Additional logging utilities
 │   │   │
-│   │   │       └── util/                       # Utility Classes
-│   │   │           ├── DBConnection.java       # Database connection pool
-│   │   │           ├── DateUtil.java           # Date/time utilities
-│   │   │           ├── HashUtil.java           # Password hashing
-│   │   │           ├── InputValidator.java     # Input validation
-│   │   │           └── LoggerUtil.java         # Logging wrapper
-│   │   │
-│   │   └── resources/                          # Configuration Files
-│   │       ├── application.properties          # Application configuration
-│   │       ├── log4j2.properties               # Logging configuration
-│   │       └── schema.sql                      # Database schema
+│   │   └── resources/                                # Configuration Resources
+│   │       └── log4j2.xml                           # Log4J2 configuration
 │   │
-│   └── test/                                   # Test Classes
-│       └── java/com/revconnectapp/
-│           ├── UserServiceTest.java
-│           ├── PostServiceTest.java
-│           ├── ConnectionServiceTest.java
-│           └── NotificationServiceTest.java
+│   └── test/                                         # Test Directory
+│       ├── java/
+│       │   └── com/revconnectapp/
+│       │       ├── DatabaseConnectionTest.java      # Database connectivity tests
+│       │       ├── LikeIntegrationTest.java         # Like system integration tests
+│       │       ├── NotificationValidationTest.java  # Notification validation tests
+│       │       ├── PostAndCommentTest.java          # Post-comment integration tests
+│       │       ├── ProfileIntegrationTest.java      # Profile system integration tests
+│       │       ├── ProfileValidationTest.java       # Profile validation tests
+│       │       └── UserRegistrationLoginTest.java   # User auth integration tests
+│       │
+│       │       └── util/                            # Utility Tests
+│       │           ├── FileLoggingTest.java         # File logging tests
+│       │           └── LogTest.java                 # Logging system tests
+│       │
+│       └── resources/                               # Test Resources
+│           └── log4j2-test.xml                      # Test logging configuration
 │
-├── target/                                     # Compiled output
-├── pom.xml                                     # Maven configuration
-├── README.md                                   # This file
-├── REVCONNECT_ARCHITECTURE.md                  # Architecture documentation
-├── REVCONNECT_ERD.md                           # Entity Relationship Diagram
-└── .gitignore                                  # Git ignore file
+├── logs/                                            # Application Logs Directory
+│   ├── app.log                                      # General application logs
+│   ├── error.log                                    # Error logs
+│   ├── revconnect-app.log                          # RevConnect application logs
+│   ├── revconnect-db.log                           # Database operation logs
+│   ├── revconnect-error.log                        # RevConnect error logs
+│   └── test-results.log                            # Test execution logs
+│
+├── target/                                          # Maven Build Output
+│   ├── classes/                                     # Compiled Java classes
+│   ├── test-classes/                                # Compiled test classes
+│   ├── maven-status/                               # Maven build status
+│   ├── surefire-reports/                           # Test reports
+│   └── revconnectapp-1.0-SNAPSHOT.jar             # Executable JAR
+│
+├── pom.xml                                         # Maven Configuration File
+│   ├── Project Metadata
+│   ├── Dependencies
+│   │   ├── mysql-connector-j:8.0.33
+│   │   ├── log4j-core:2.23.1
+│   │   ├── log4j-api:2.20.0
+│   │   ├── junit:4.13.2
+│   │   └── junit-jupiter:5.10.2
+│   ├── Build Configuration
+│   └── Plugin Management
+│
+├── README.md                                       # Main project documentation
+├── REVCONNECT_ARCHITECTURE.md                     # Architecture documentation
+├── REVCONNECT_ERD.md                              # Entity Relationship Diagram
+└── .gitignore                                     # Git ignore file
 ```
 
 ### 🗄️ Database Schema

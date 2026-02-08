@@ -1,83 +1,85 @@
-## 📝 Application Overview
-### RevConnect is a feature-rich social networking console application built with Java and MySQL. It enables users to connect, share content, and interact in a secure environment. The application implements modern social media features including user profiles, posts, comments, likes, follows, connection requests, and real-time notifications.
+## RevConnect - Social Networking Console Application
+### 📝 Application Overview
+
+RevConnect is a feature-rich social networking console application built with Java and MySQL. It enables users to connect, share content, and interact in a secure environment. The application implements modern social media features including user profiles, posts, comments, likes, follows, connection requests, and real-time notifications.
 
 ### ⚙️ Core Functional Features
 ### 👤 User Management
-Create an account with secure authentication
+- Create an account with secure authentication
 
-User login/logout with session management
+- User login/logout with session management
 
-Profile creation and management
+- Profile creation and management
 
-Privacy settings (Public/Private profiles)
+- Privacy settings (Public/Private profiles)
 
-User types: Personal, Creator, Business
+- User types: Personal, Creator, Business
 
 ### 📱 Social Features
-Post Creation: Create text posts with hashtags and scheduling
+- Post Creation: Create text posts with hashtags and scheduling
 
-Content Interaction: Like and comment on posts
+- Content Interaction: Like and comment on posts
 
-Social Connections: Send/accept/reject connection requests
+- Social Connections: Send/accept/reject connection requests
 
-Follow System: Follow/unfollow other users
+- Follow System: Follow/unfollow other users
 
-Timeline View: Personalized content feed
+- Timeline View: Personalized content feed
 
 ### 🔔 Notification System
-Real-time notifications for social interactions
+- Real-time notifications for social interactions
 
-Notification types: Likes, Comments, Follows, Connection requests
+- Notification types: Likes, Comments, Follows, Connection requests
 
-Read/unread status tracking
+- Read/unread status tracking
 
 ### 🔍 Search & Discovery
-Search users by username
+- Search users by username
 
-View user profiles and posts
+- View user profiles and posts
 
-Explore connections and followers
+- Explore connections and followers
 
 ### ✅ Standard Functional Scope
-Registered users can:
-Create and manage their profile
+#### Registered users can:
+- Create and manage their profile
 
-Post content with hashtags and scheduling
+- Post content with hashtags and scheduling
 
-Interact with other users' content
+- Interact with other users' content
 
-Manage social connections
+- Manage social connections
 
-Send and respond to connection requests
+- Send and respond to connection requests
 
-Follow/unfollow other users
+- Follow/unfollow other users
 
-Receive and manage notifications
+- Receive and manage notifications
 
-Control privacy settings
+- Control privacy settings
 
-💻 Environment / Technologies
-Programming Language: Java 11+
+### 💻 Environment / Technologies
+- Programming Language: Java 11+
 
-Database: MySQL 8.0+
+- Database: MySQL 8.0+
 
-Database Connectivity: JDBC
+- Database Connectivity: JDBC
 
-Build Tool: Maven
+- Build Tool: Maven
 
-Logging: Log4J 2.x
+- Logging: Log4J 2.x
 
-Testing: JUnit 5
+- Testing: JUnit 5
 
-Version Control: Git
+- Version Control: Git
 
 ### 🚀 Getting Started
-Prerequisites
-Java Development Kit (JDK) 11 or higher
+#### Prerequisites
+- Java Development Kit (JDK) 11 or higher
 
-MySQL Server 8.0 or higher
+- MySQL Server 8.0 or higher
 
-Maven 3.6 or higher
+- Maven 3.6 or higher
 
 ```Git
 
@@ -224,25 +226,25 @@ Core Tables:
 
 - notifications - System notifications
 
-Key Relationships:
-User 1:1 Profile - Each user has one profile
+### Key Relationships:
+- User 1:1 Profile - Each user has one profile
 
-User 1:N Posts - Users create multiple posts
+- User 1:N Posts - Users create multiple posts
 
-Post 1:N Comments - Posts receive multiple comments
+- Post 1:N Comments - Posts receive multiple comments
 
-User M:N Follows - Users follow multiple users
+- User M:N Follows - Users follow multiple users
 
-User M:N Connections - Users connect with multiple users
+- User M:N Connections - Users connect with multiple users
 
-Post M:N Likes - Posts liked by multiple users
+- Post M:N Likes - Posts liked by multiple users
 
 ### 🔐 Authentication Security
 - Password hashing using SHA-256 with salt
 
 - Secure session management
 
-Account lockout protection
+- Account lockout protection
 
 - Input validation and sanitization
 

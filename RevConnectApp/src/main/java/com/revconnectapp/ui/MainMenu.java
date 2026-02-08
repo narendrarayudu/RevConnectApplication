@@ -215,6 +215,14 @@ public class MainMenu {
         }
     }
 
+      public boolean verifySecurityAnswer(String userAnswer) {
+        return userAnswer.equals(this.securityAnswer);
+    }
+    
+    public void setSecurityAnswer(String answer) {
+        this.securityAnswer = answer;
+    }
+
     private void showDashboard() {
         int unreadCount = notificationService.getUnreadCount(currentUser.getId());
         System.out.println("\n" + "=".repeat(50));
